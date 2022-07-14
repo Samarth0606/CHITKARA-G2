@@ -1,0 +1,73 @@
+/* h1{
+    color: blue;
+    background-color: grey;
+    font-size: 10px;
+    border: 20px dotted purple;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+
+#tanveer{
+    color: rgb(140, 255, 0);
+    background-color: rgb(155, 47, 47);
+    font-size: 5px;
+
+}
+
+.master{
+    font-size: 25px;
+    background-color: rgb(92, 155, 47);
+} */
+
+/* *{
+    border: 5px solid green;
+} */
+
+/* body{
+    border: 5px solid green;
+} */
+
+/* input[type="text"]{
+    background-color: aqua;
+}
+
+input[type="password"]{
+    background-color: rgb(89, 255, 0);
+} */
+
+/* input{
+    background-color: rgb(89, 255, 0);
+}
+
+a[href="https://google.com"]{
+    background-color: rgb(8, 0, 255);
+
+} */
+
+/* a[href^="http:"]{
+    font-size: 50px;
+}
+
+a[href$=".in"]{
+    font-size: 50px;
+} */
+
+/* a[href*="//"]{
+    font-size: 100px;
+} */
+
+
+div a{
+    background-color: rgb(250, 215, 249);
+}
+/* div strong{
+    font-size: 30px;
+} */
+/* div p strong{
+    font-size: 10px;
+} */
+
+
+div   p > strong{
+    background-color: brown;
+}
