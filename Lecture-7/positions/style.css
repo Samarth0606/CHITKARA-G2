@@ -1,0 +1,26 @@
+div{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#fixed #middle{
+    background-color: blue;
+    position: fixed;
+    top: 100px;
+}
+
+#fixed{
+    position: relative;
+}
+
+#sticky #middle{
+    background-color: rgb(255, 0, 200);
+    position: sticky;
+    top: 150px;
+}
+#sticky{
+    height: 500px;
+    border: 2px solid green;
+}
