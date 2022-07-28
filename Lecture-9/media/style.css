@@ -1,0 +1,46 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 2px solid green;
+}
+
+/* @media screen and (width:700px) {
+    div{
+        background-color: aqua;
+    }
+    
+} */
+
+
+
+/* @media screen and (max-width:767px) and (orientation:portrait) {
+    div{
+        background-color: rgb(94, 255, 0);
+    }
+    
+}
+
+@media screen and (max-width:576px) {
+    div{
+        background-color: rgb(55, 0, 255);
+    }
+    
+} */
+
+
+
+
+@media screen and (min-width:767px) {
+    div{
+        background-color: rgb(94, 255, 0);
+    }
+    
+}
+
+@media screen and (min-width:576px) {
+    div{
+        background-color: rgb(55, 0, 255);
+    }
+    
+}
