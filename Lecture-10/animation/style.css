@@ -1,0 +1,29 @@
+div{
+    width:100px;
+    height:100px;
+    background-color: antiquewhite;
+    animation-name: kuchbhi;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-direction:normal;
+    /* animation-fill-mode: forwards; */
+    animation-play-state: running;
+}
+div:hover{
+    
+    animation-play-state: paused;
+
+}
+@keyframes kuchbhi {
+    from{
+        height: 100px;
+        background-color: aqua;
+    }
+    to{
+        height: 800px;
+        background-color: blue;
+    }
+    
+}

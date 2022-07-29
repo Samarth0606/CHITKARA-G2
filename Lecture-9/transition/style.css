@@ -44,7 +44,7 @@ div:hover{
 .child-4{
     background-color: rgb(219, 255, 196);
     /* transition-timing-function:ease-in-out; */
-    transition-timing-function:;
+    transition-timing-function:ease-in-out;
 }
 
 .parent:hover .child{
