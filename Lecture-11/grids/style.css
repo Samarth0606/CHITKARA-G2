@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    width: 80vw;
+    height: 80vh;
+    margin: 24px auto;
+    display: grid;
+    grid-template-columns: 200px 250px;
+    grid-template-rows: 100px 100px 100px;
+    /* grid-template-rows: repeat(3,100px); */
+
+    /* grid-template-rows: 200px 1fr 2fr; */
+    /* grid-auto-rows: 50px; */
+    grid-auto-flow:column ;
+    grid-auto-columns: auto;
+    grid-gap: 10px;
+
+}
+
+.child{
+    background-color: aqua;
+    border: 3px solid black;
+}
